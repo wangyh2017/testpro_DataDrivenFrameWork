@@ -1,0 +1,588 @@
+2018/03/12 15:39:29 INFO  - jmeter.util.JMeterUtils: Setting Locale to en 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: Loading user properties from: /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/bin/user.properties 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: Loading system properties from: /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/bin/system.properties 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: java.version=1.8.0_144 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: os.arch=x86_64 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: os.version=10.12.6 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: Max memory     =1908932608 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: Available Processors =4 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: JMeter  Locale=英文 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: JMeterHome=/Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: user.dir  =/Users/wangyanhua/Documents/wyhgit 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: PWD       =/Users/wangyanhua/Documents/wyhgit 
+2018/03/12 15:39:29 INFO  - jmeter.JMeter: IP: 192.168.19.169 Name: wangyanhuadeMacBook-Pro.local FullName: 192.168.19.169 
+2018/03/12 15:39:30 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
+2018/03/12 15:39:30 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2018/03/12 15:39:35 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2018/03/12 15:39:35 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2018/03/12 15:39:36 WARN  - org.jmeterplugins.repository.PluginManager: Found JAR conflict: /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/lib/commons-jexl-2.1.1.jar and /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/lib/commons-jexl-1.1.jar 
+2018/03/12 15:39:37 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2018/03/12 15:39:38 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/03/12 15:39:38 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/03/12 15:39:38 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/03/12 15:39:38 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2018/03/12 15:39:38 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2018/03/12 15:39:38 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2018/03/12 15:39:39 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2018/03/12 15:39:39 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/bin/proxyserver.jks 
+2018/03/12 15:39:40 INFO  - org.jmeterplugins.repository.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-functions=2.0, jpgc-casutg=2.5, jpgc-dummy=0.2, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-perfmon=2.1, jpgc-plugins-manager=0.19, jpgc-tst=2.1, jmeter-core=3.0, jmeter-ftp=3.0, jmeter-http=3.0, jmeter-jdbc=3.0, jmeter-jms=3.0, jmeter-junit=3.0, jmeter-java=3.0, jmeter-ldap=3.0, jmeter-mail=3.0, jmeter-mongodb=3.0, jmeter-native=3.0, jmeter-tcp=3.0, jmeter-components=3.0, jpgc-standard=2.0] 
+2018/03/12 15:39:40 INFO  - org.jmeterplugins.repository.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-tst] 
+2018/03/12 15:39:40 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2018/03/12 15:39:40 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2018/03/12 15:39:40 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
+2018/03/12 15:39:40 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2018/03/12 15:39:40 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2018/03/12 15:39:40 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2018/03/12 15:39:40 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2018/03/12 15:39:40 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
+2018/03/12 16:11:10 WARN  - jmeter.protocol.http.proxy.ProxyControl: Problem reading key store: NotAfter: Mon Jan 15 11:36:35 CST 2018 
+2018/03/12 16:11:10 INFO  - jmeter.protocol.http.proxy.ProxyControl: Creating Proxy CA in /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/bin/proxyserver.jks 
+2018/03/12 16:11:13 WARN  - jorphan.exec.KeyToolUtils: Failed creating /Users/wangyanhua/Documents/wyhgit/ApacheJMeterTemporaryRootCA.crt, check 'keytool' utility in path is available and points to a JDK >= 7 
+2018/03/12 16:11:13 INFO  - jmeter.protocol.http.proxy.ProxyControl: Created keystore in /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/bin/proxyserver.jks 
+2018/03/12 16:11:13 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 98888 
+2018/03/12 16:11:13 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.IllegalArgumentException: Port value out of range: 98888
+	at java.net.ServerSocket.<init>(ServerSocket.java:232)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:108)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:83)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:486)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:516)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:390)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018/03/12 16:11:25 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:11:25 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:11:25 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 98888 
+2018/03/12 16:11:25 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.IllegalArgumentException: Port value out of range: 98888
+	at java.net.ServerSocket.<init>(ServerSocket.java:232)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:108)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:83)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:486)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:516)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:390)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018/03/12 16:11:27 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:11:27 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:11:27 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 98888 
+2018/03/12 16:11:27 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.IllegalArgumentException: Port value out of range: 98888
+	at java.net.ServerSocket.<init>(ServerSocket.java:232)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:108)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:83)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:486)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:516)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:390)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018/03/12 16:11:32 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:11:32 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:11:32 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 98888 
+2018/03/12 16:11:32 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.IllegalArgumentException: Port value out of range: 98888
+	at java.net.ServerSocket.<init>(ServerSocket.java:232)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:108)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:83)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:486)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:516)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:390)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018/03/12 16:11:33 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:11:33 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:11:33 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 98888 
+2018/03/12 16:11:33 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.IllegalArgumentException: Port value out of range: 98888
+	at java.net.ServerSocket.<init>(ServerSocket.java:232)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:108)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:83)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:486)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:516)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:390)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018/03/12 16:12:50 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:12:50 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:12:50 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 9888 
+2018/03/12 16:12:50 ERROR - jmeter.protocol.http.proxy.ProxyControl: Could not create Proxy daemon java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:108)
+	at org.apache.jmeter.protocol.http.proxy.Daemon.<init>(Daemon.java:83)
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.startProxy(ProxyControl.java:486)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.startProxy(ProxyControlGui.java:516)
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.actionPerformed(ProxyControlGui.java:390)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018/03/12 16:13:41 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:13:41 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:13:41 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 9888 
+2018/03/12 16:13:41 INFO  - jmeter.protocol.http.proxy.Daemon: Test Script Recorder up and running! 
+2018/03/12 16:13:42 INFO  - jmeter.protocol.http.proxy.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host 
+2018/03/12 16:13:42 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = wangyanhuadeMacBook-Pro.local 
+2018/03/12 16:13:42 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2018/03/12 16:13:43 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 16:15:01 INFO  - jmeter.protocol.http.proxy.Daemon: HTTP(S) Test Script Recorder stopped 
+2018/03/12 16:18:03 INFO  - jmeter.services.FileServer: Default base='/Users/wangyanhua/Documents/wyhgit' 
+2018/03/12 16:18:03 INFO  - jmeter.services.FileServer: Set new base='/Users/wangyanhua/Desktop' 
+2018/03/12 16:18:03 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 16:18:03 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 16:18:03 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 16:18:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 16:18:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 16:18:03 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 16:18:03 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 16:18:03 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 16:18:03 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 16:18:03 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 16:18:09 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 16:18:09 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 16:18:09 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 16:18:09 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 16:19:26 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:19:26 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:19:26 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 9888 
+2018/03/12 16:19:26 INFO  - jmeter.protocol.http.proxy.Daemon: Test Script Recorder up and running! 
+2018/03/12 16:19:35 INFO  - jmeter.protocol.http.proxy.Daemon: HTTP(S) Test Script Recorder stopped 
+2018/03/12 16:19:55 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 16:19:55 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 16:19:55 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 16:19:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 16:19:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 16:19:55 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 16:19:55 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 16:19:55 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 16:19:55 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 16:19:55 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 16:19:56 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 16:19:56 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 16:19:56 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 16:19:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 16:25:37 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 16:25:37 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 16:25:37 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 16:25:38 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 16:25:38 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 16:25:38 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 16:25:38 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 16:25:38 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 16:25:38 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 16:25:38 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 16:25:38 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 16:25:38 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 16:25:38 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 16:25:38 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 16:55:21 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 16:55:21 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 16:55:21 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 16:55:22 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 16:55:22 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 16:55:22 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 16:55:22 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 16:55:22 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 16:55:22 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 16:55:22 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 16:55:23 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 16:55:23 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 16:55:23 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 16:55:23 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 16:59:17 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:59:17 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:59:17 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 9888 
+2018/03/12 16:59:17 INFO  - jmeter.protocol.http.proxy.Daemon: Test Script Recorder up and running! 
+2018/03/12 16:59:37 INFO  - jmeter.protocol.http.proxy.Daemon: HTTP(S) Test Script Recorder stopped 
+2018/03/12 16:59:37 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 16:59:37 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 16:59:37 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 9888 
+2018/03/12 16:59:37 INFO  - jmeter.protocol.http.proxy.Daemon: Test Script Recorder up and running! 
+2018/03/12 16:59:41 INFO  - jmeter.protocol.http.proxy.Daemon: HTTP(S) Test Script Recorder stopped 
+2018/03/12 17:00:07 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:00:07 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:00:07 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:00:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:00:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:00:07 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:00:07 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:00:07 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:00:07 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:00:07 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:00:11 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 17:00:11 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:00:11 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:00:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:00:36 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :root_ca: 
+2018/03/12 17:00:36 INFO  - jmeter.protocol.http.proxy.ProxyControl: Valid alias found for :intermediate_ca: 
+2018/03/12 17:00:36 INFO  - jmeter.protocol.http.proxy.Daemon: Creating Daemon Socket on port: 9888 
+2018/03/12 17:00:36 INFO  - jmeter.protocol.http.proxy.Daemon: Test Script Recorder up and running! 
+2018/03/12 17:00:44 INFO  - jmeter.protocol.http.proxy.ProxyControl: [59029] Creating entry cdn.bootcss.com in /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/bin/proxyserver.jks 
+2018/03/12 17:00:45 INFO  - jmeter.protocol.http.proxy.Proxy: [59029] KeyStore for SSL loaded OK and put host 'cdn.bootcss.com' in map with key (cdn.bootcss.com) 
+2018/03/12 17:00:46 WARN  - jmeter.protocol.http.proxy.Proxy: [59029] Problem with SSL certificate for 'cdn.bootcss.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host closed connection during handshake 
+2018/03/12 17:00:48 INFO  - jmeter.protocol.http.proxy.ProxyControl: [59037] Creating entry open.weixin.qq.com in /Users/wangyanhua/Documents/学习/Jemeter/apache-jmeter-3.0/bin/proxyserver.jks 
+2018/03/12 17:00:50 INFO  - jmeter.protocol.http.proxy.Proxy: [59037] KeyStore for SSL loaded OK and put host 'open.weixin.qq.com' in map with key (open.weixin.qq.com) 
+2018/03/12 17:00:51 WARN  - jmeter.protocol.http.proxy.Proxy: [59037] Problem with SSL certificate for 'open.weixin.qq.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host closed connection during handshake 
+2018/03/12 17:01:20 INFO  - jmeter.protocol.http.proxy.Daemon: HTTP(S) Test Script Recorder stopped 
+2018/03/12 17:01:32 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:01:32 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:01:32 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:01:32 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:01:32 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:01:32 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:01:32 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:01:32 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:01:32 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:01:32 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:01:35 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 17:01:35 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:01:35 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:01:35 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:04:17 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:04:17 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:04:17 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:04:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:04:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:04:17 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:04:17 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:04:17 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:04:17 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:04:17 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:04:20 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 17:04:20 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:04:20 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:04:20 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:06:14 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:06:14 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:06:14 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:06:14 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:06:14 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:06:14 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:06:14 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:06:14 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:06:14 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:06:14 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:06:21 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 17:06:21 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:06:21 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:06:21 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:12:39 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:12:39 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:12:39 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:12:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:12:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:12:40 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:12:40 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:12:40 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:12:40 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:12:40 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:12:58 INFO  - jmeter.gui.action.Start: Shutting test down 
+2018/03/12 17:12:58 INFO  - jmeter.threads.JMeterThread: Stopping: NB 1-1 
+2018/03/12 17:12:58 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:12:58 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:12:58 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:13:02 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:13:02 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:13:02 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:13:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:13:03 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:13:03 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:13:03 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:13:03 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:13:03 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:13:03 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:13:19 INFO  - jmeter.gui.action.Start: Stopping test 
+2018/03/12 17:13:19 INFO  - jmeter.threads.JMeterThread: Stopping: NB 1-1 
+2018/03/12 17:13:19 WARN  - jmeter.threads.JMeterThread: Interrupting: NB 1-1 sampler: 160 /weixin/message/getMaxMsg 
+2018/03/12 17:13:19 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:13:19 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:13:19 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:13:28 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:13:28 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:13:28 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:13:28 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:13:28 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:13:28 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:13:28 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:13:28 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:13:28 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:13:28 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:13:39 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 17:13:39 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:13:39 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:13:39 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:14:17 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:14:17 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:14:17 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:14:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:14:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:14:17 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:14:17 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:14:17 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:14:17 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:14:17 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:14:19 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 17:14:19 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:14:19 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:14:19 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:14:31 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:14:31 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:14:31 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:14:31 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:14:31 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:14:31 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:14:31 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:14:31 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:14:31 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:14:31 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:14:33 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 17:14:33 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:14:33 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:14:33 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:29:34 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:29:34 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:29:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:29:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:29:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:29:34 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:29:34 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:29:34 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:29:34 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:29:34 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:29:40 INFO  - jmeter.threads.JMeterThread: Thread is done: NB 1-1 
+2018/03/12 17:29:40 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:29:40 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:29:40 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2018/03/12 17:31:30 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2018/03/12 17:31:30 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2018/03/12 17:31:30 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2018/03/12 17:31:30 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : NB 
+2018/03/12 17:31:30 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group NB. 
+2018/03/12 17:31:30 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2018/03/12 17:31:30 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2018/03/12 17:31:30 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2018/03/12 17:31:30 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2018/03/12 17:31:30 INFO  - jmeter.threads.JMeterThread: Thread started: NB 1-1 
+2018/03/12 17:31:31 INFO  - jmeter.gui.action.Start: Stopping test 
+2018/03/12 17:31:31 INFO  - jmeter.threads.JMeterThread: Stopping: NB 1-1 
+2018/03/12 17:31:31 WARN  - jmeter.threads.JMeterThread: Interrupting: NB 1-1 sampler: 151 /weixin/order/addOrder 
+2018/03/12 17:31:31 INFO  - jmeter.threads.JMeterThread: Thread finished: NB 1-1 
+2018/03/12 17:31:31 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2018/03/12 17:31:31 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
